@@ -1,0 +1,15 @@
+.uploadBox {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.uploadBox.active {
+  background-color: #f0f0f0;
+}

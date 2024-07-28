@@ -1,0 +1,39 @@
+.resultContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+  width: 100%;
+}
+
+.resultItem {
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.circularProgressContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circularProgress {
+  color: #81b8ff; /* Cor personalizada da borda */
+}
+
+.circularProgressText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  font-weight: bold;
+}
+
+.resultText {
+  margin-top: 10px;
+  color: #333;
+}
