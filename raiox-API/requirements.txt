@@ -1,0 +1,6 @@
+Flask==3.0.0
+Flask-Cors==4.0.0
+numpy==1.23.5
+ultralytics==8.0.0  # YOLOv8
+torch==2.0.1       # PyTorch
+opencv-python==4.8.0.74  # OpenCV

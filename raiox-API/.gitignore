@@ -1,0 +1,8 @@
+#.venv
+/.venv
+
+#models
+trained_model_329.pt
+
+
+/__pycache__
